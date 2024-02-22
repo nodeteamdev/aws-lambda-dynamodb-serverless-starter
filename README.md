@@ -11,6 +11,7 @@ It is a serverless application that uses AWS lambda, dynamodb, and api gateway. 
 - dynamodb local
 - dynamodb admin
 - dynamodb migrate
+- Java Runtime Engine (JRE) version 6.x or newer
 
 # Features
 
@@ -39,6 +40,10 @@ npm install -g serverless
 ```
 
 Install dynamodb local
+
+DynamoDb Oflline Plugin Requires:
+ - serverless@^1
+ - Java Runtime Engine (JRE) version 6.x or newer
 
 ```bash
 npx sls dynamodb install
